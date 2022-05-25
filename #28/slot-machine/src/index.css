@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading_style {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+  padding: 1rem 0;
+  margin: 0 0 2rem 0;
+}
+
+.game_name {
+  font-weight: bolder;
+  color: white;
+}
+
+.slot_inner {
+  font-family: 'Raleway', sans-serif;
+  margin: 1rem 0;
+  font-size: 1rem;
+  height: auto;
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 50vw;
+}
+
+.slotmachine {
+  height: auto;
+  width: 50vw;
+  margin: auto;
+  background-color: rgb(224, 212, 212);
+}

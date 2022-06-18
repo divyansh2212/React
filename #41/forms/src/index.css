@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cyan;
+}
+
+.main_div {
+  margin: auto;
+  width: 30vw;
+  height: 50vh;
+  border: 2px solid red;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  /* border: 1px solid green; */
+}
+
+.button_div {
+  margin: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: cyan;
+  outline: none;
+  border: none;
+}

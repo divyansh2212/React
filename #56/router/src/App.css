@@ -1,0 +1,13 @@
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+  color: rgb(72, 72, 193);
+}
